@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Rate Flix"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RATE_FIX"
+        tools:targetApi="31">
+        <activity
+            android:name=".Gandx"
+            android:exported="false" />
+        <activity
+            android:name=".Gamer"
+            android:exported="false" />
+        <activity
+            android:name=".Movie_11"
+            android:exported="false" />
+        <activity
+            android:name=".Movie_10"
+            android:exported="false" />
+        <activity
+            android:name=".Sign_Act"
+            android:exported="false" />
+        <activity
+            android:name=".Movie_09"
+            android:exported="false" />
+        <activity
+            android:name=".Movie_08"
+            android:exported="false" />
+        <activity
+            android:name=".Movie07"
+            android:exported="false" />
+        <activity
+            android:name=".Movie_06"
+            android:exported="false" />
+        <activity
+            android:name=".Login_Act"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Movie_05"
+            android:exported="false" />
+        <activity
+            android:name=".Movie_04"
+            android:exported="false" />
+        <activity
+            android:name=".Movie_03"
+            android:exported="false" />
+        <activity
+            android:name=".Movie_02"
+            android:exported="false" />
+        <activity
+            android:name=".Movie_01"
+            android:exported="false" />
+        <activity
+            android:name=".Hollywood_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Others_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Bollywood_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".activity_tollywood"
+            android:exported="false" />
+        <activity
+            android:name=".Hindi_Actiivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.RATE_FIX.NoActionBar">
+            />
+        </activity>
+    </application>
+
+</manifest>

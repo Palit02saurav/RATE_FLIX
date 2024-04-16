@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/av">
+
+    <TextView
+        android:id="@+id/signin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register"
+        android:textColor="#ffffff"
+        android:layout_marginTop="50dp"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"/>
+
+
+    <ImageView
+        android:id="@+id/imageii"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:src="@drawable/prof1"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/signin"
+        android:padding="-80dp"/>
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/edityu01"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/imageii"
+        android:hint="@string/enter_full_name"
+        android:textColorHint="#ffffff"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:drawableStart="@drawable/baseline_person_40"
+        android:background="#757575"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/edityu02"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/edityu01"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:hint="@string/enter_username"
+        android:textColorHint="#ffffff"
+        android:background="#757575"
+        android:layout_marginTop="5dp"
+        android:drawableStart="@drawable/baseline_account_circle_40"
+        android:inputType="text"
+        android:autofillHints="name" />
+
+    <EditText
+        android:id="@+id/edityu03"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/edityu02"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="#757575"
+        android:layout_marginTop="5dp"
+        android:hint="@string/e_mail_id"
+        android:textColorHint="#ffffff"
+        android:drawableStart="@drawable/baseline_email_24"/>
+
+    <EditText
+        android:id="@+id/edityu04"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/edityu03"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="#757575"
+        android:layout_marginTop="5dp"
+        android:hint="Password"
+        android:textColorHint="#ffffff"
+        android:drawableStart="@drawable/baseline_password_24"
+        android:autofillHints="name" />
+
+    <EditText
+        android:id="@+id/edityu05"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/edityu04"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="#757575"
+        android:layout_marginTop="5dp"
+        android:hint="@string/confirm_password"
+        android:textColorHint="#ffffff"
+        android:drawableStart="@drawable/baseline_fingerprint_24"/>
+
+    <Button
+        android:id="@+id/confirmbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edityu05"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/register"
+        android:background="#4527a0"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"/>
+
+    <TextView
+        android:id="@+id/backtologin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/confirmbutton"
+        android:text="@string/back_to_login"
+        android:textSize="15sp"
+        android:textColor="#039be5"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="20dp"/>
+</RelativeLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Movie_11"
+    android:background="@drawable/irony">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <HorizontalScrollView
+            android:id="@+id/horizon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="400dp"
+                android:layout_height="400dp">
+
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="400dp"
+                    android:src="@drawable/angry02"/>
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="400dp"
+                    android:src="@drawable/angry01"/>
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="400dp"
+                    android:src="@drawable/angry03"/>
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <TextView
+            android:id="@+id/description01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/horizon"
+            android:textColor="#fafafa"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="Description:-12 Angry Men is a seminal courtroom drama directed by Sidney Lumet. Set in a jury room, it examines the prejudices and tensions among jurors as they deliberate the fate of a young man accused of murder. Through intense debates, the film highlights themes of justice, prejudice, and the human condition."/>
+
+        <ImageView
+            android:id="@+id/imdb01"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/description01"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="33dp"
+            android:src="@drawable/imdb01"
+            android:layout_marginRight="50dp"/>
+
+        <ImageView
+            android:id="@+id/imdb001"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/description01"
+            android:layout_marginTop="33dp"
+            android:src="@drawable/imdimage"
+            android:layout_marginLeft="50dp"/>
+
+        <ImageView
+            android:id="@+id/imdb02"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/imdb01"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="33dp"
+            android:src="@drawable/birot"
+            android:layout_marginRight="50dp"/>
+
+        <ImageView
+            android:id="@+id/imdb002"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/imdb01"
+            android:layout_marginTop="33dp"
+            android:src="@drawable/rotei"
+            android:layout_marginLeft="50dp"/>
+
+        <Button
+            android:id="@+id/watch_now_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imdb002"
+            android:drawableLeft="@drawable/circle_40"
+            android:text="Watch Now"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="90dp"
+            android:layout_marginLeft="90dp"
+            android:background="#ffff00"/>
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Movie_08"
+    android:background="@drawable/irony">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <HorizontalScrollView
+            android:id="@+id/horizon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="400dp"
+                android:layout_height="400dp">
+
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="400dp"
+                    android:src="@drawable/bat03"/>
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="400dp"
+                    android:src="@drawable/bat02"/>
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="400dp"
+                    android:src="@drawable/bat01"/>
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <TextView
+            android:id="@+id/description01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/horizon"
+            android:textColor="#fafafa"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="Description:- Batman, directed by Tim Burton, is a dark and brooding tale of the iconic vigilante superhero. Exploring the origins of Bruce Wayne's alter ego, the film delves into his relentless pursuit of justice in the crime-infested streets of Gotham City. With its striking visual style, memorable performances, and psychological depth, Batman redefined the superhero genre, paving the way for a new era of comic book adaptations. It remains a beloved classic, captivating audiences with its timeless portrayal of the Caped Crusader."/>
+        <ImageView
+            android:id="@+id/imdb01"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/description01"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="33dp"
+            android:src="@drawable/imdb01"
+            android:layout_marginRight="50dp"/>
+
+        <ImageView
+            android:id="@+id/imdb001"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/description01"
+            android:layout_marginTop="33dp"
+            android:src="@drawable/imdimage"
+            android:layout_marginLeft="50dp"/>
+
+        <ImageView
+            android:id="@+id/imdb02"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/imdb01"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="33dp"
+            android:src="@drawable/birot"
+            android:layout_marginRight="50dp"/>
+
+        <ImageView
+            android:id="@+id/imdb002"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/imdb01"
+            android:layout_marginTop="33dp"
+            android:src="@drawable/rotei"
+            android:layout_marginLeft="50dp"/>
+
+        <Button
+            android:id="@+id/watch_now_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imdb002"
+            android:drawableLeft="@drawable/circle_40"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="90dp"
+            android:layout_marginLeft="90dp"
+            android:text="Watch Now"
+            android:background="#ffff00"/>
+    </RelativeLayout>
+</ScrollView>

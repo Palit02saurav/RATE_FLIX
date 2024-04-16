@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/i02"
+    tools:context=".Gandx">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <HorizontalScrollView
+            android:id="@+id/horizon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="400dp"
+                android:layout_height="400dp">
+
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="400dp"
+                    android:src="@drawable/gm" />
+
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="400dp"
+                    android:src="@drawable/gm01" />
+
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="400dp"
+                    android:src="@drawable/gm02" />
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <TextView
+            android:id="@+id/description01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/horizon"
+            android:text="Description:- In The Gamer Movie, pixels become portals to adventure as players navigate virtual realms teeming with danger and delight. From pixelated battlegrounds to fantastical quests, the lines between reality and the game blur, immersing viewers in a thrilling odyssey where every move could mean victory or defeat."
+            android:textColor="#fafafa"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imdb01"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/description01"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="33dp"
+            android:layout_marginRight="50dp"
+            android:src="@drawable/imdb01" />
+
+        <ImageView
+            android:id="@+id/imdb001"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/description01"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="33dp"
+            android:src="@drawable/imdimage" />
+
+        <ImageView
+            android:id="@+id/imdb02"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/imdb01"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="33dp"
+            android:layout_marginRight="50dp"
+            android:src="@drawable/birot" />
+
+        <ImageView
+            android:id="@+id/imdb002"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/imdb01"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="33dp"
+            android:src="@drawable/rotei" />
+
+        <Button
+            android:id="@+id/watch_now_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imdb002"
+            android:drawableLeft="@drawable/circle_40"
+            android:text="Watch Now"
+            android:background="#ffff00"/>
+    </RelativeLayout>
+</ScrollView>

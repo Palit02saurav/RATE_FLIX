@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.rate_fix.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_upcoming"
+        android:name="com.example.rate_fix.ui.upcoming.UpcomingFragment"
+        android:label="@string/upcoming"
+        tools:layout="@layout/fragment_upcoming" />
+
+    <fragment
+        android:id="@+id/nav_toprated"
+        android:name="com.example.rate_fix.ui.toprated.TopratedFragment"
+        android:label="@string/top_rated"
+        tools:layout="@layout/fragment_toprated" />
+
+    <fragment
+        android:id="@+id/nav_recently_released"
+        android:name="com.example.rate_fix.ui.recentlyreleased.RecentlyreleasedFragment"
+        android:label="@string/recently_released"
+        tools:layout="@layout/fragment_recentlyreleased" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.example.rate_fix.ui.settings.SettingFragment"
+        android:label="@string/settings"
+        tools:layout="@layout/fragment_setting" />
+
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.example.rate_fix.ui.logout.LogoutFragment"
+        android:label="@string/log_out"
+        tools:layout="@layout/fragment_logout" />
+</navigation>

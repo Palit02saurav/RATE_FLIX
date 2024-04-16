@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_aboutapp"
+        android:orderInCategory="100"
+        android:title="About App!"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_helpcentre"
+        android:orderInCategory="100"
+        android:title="Help Centre"/>
+
+    <item
+        android:id="@+id/action_logout"
+        android:orderInCategory="100"
+        android:title="Log Out"/>
+</menu>
